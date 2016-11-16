@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="350dp"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="#30211c"
+    android:padding="20dp">
+    <Button 
+       android:id="@+id/btnedit"
+       android:layout_width="match_parent"
+       android:layout_height="50dp"
+       android:text="Edit"/>
+    <Button
+        android:id="@+id/btndelete" 
+       android:layout_width="match_parent"
+       android:layout_height="50dp"
+       android:text="Delete"/>
+
+</LinearLayout>

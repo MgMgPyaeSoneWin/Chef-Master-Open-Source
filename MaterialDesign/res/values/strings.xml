@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">Chef Master</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_search">Search</string>
+    <string name="add">Add</string>
+    <string name="delete">Delete</string>
+    <string name="search_hint">Choose recipe...</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+
+    <string name="nav_item_home">Home</string>
+    <string name="nav_item_tdmenu">Today\'s Menu</string>
+    <string name="nav_item_cusrecepie">My Custom Recepies</string>
+    <string name="nav_item_brwcategories">Browse Categories</string>
+    <string name="nav_item_favitem">Favourite Item</string>
+    <string name="nav_item_country">Country</string>
+    <string name="nav_item_about">About App</string>
+	<string name="nav_item_exit">Exit</string>
+	
+	<string name="nav_img_home">master_icon</string>
+    <string name="nav_img_tdmenu">today_menu</string>
+    <string name="nav_img_cusrecepie">my_custom</string>
+    <string name="nav_img_brwcategories">browse</string>
+    <string name="nav_img_favitem">favourite_item</string>
+    <string name="nav_img_country">country</string>
+    <string name="nav_img_about">shared</string>
+	<string name="nav_img_exit">exit</string>
+    
+	 <string-array name="nav_drawer_image">
+        <item>@string/nav_img_home</item>
+        <item>@string/nav_img_tdmenu</item>
+        <item>@string/nav_img_cusrecepie</item>
+        <item>@string/nav_img_brwcategories</item>
+        <item>@string/nav_img_favitem</item>
+        <item>@string/nav_img_country</item>
+        <item>@string/nav_img_about</item>
+        <item>@string/nav_img_exit</item>
+    </string-array>
+    <!-- navigation drawer item labels  -->
+    <string-array name="nav_drawer_labels">
+        <item>@string/nav_item_home</item>
+        <item>@string/nav_item_tdmenu</item>
+        <item>@string/nav_item_cusrecepie</item>
+        <item>@string/nav_item_brwcategories</item>
+        <item>@string/nav_item_favitem</item>
+        <item>@string/nav_item_country</item>
+        <item>@string/nav_item_about</item>
+        <item>@string/nav_item_exit</item>
+    </string-array>
+
+    <string name="title_country">Country</string>
+    <string name="title_home">Home</string>
+    <string name="title_todaymenu">Today\'s Menu</string>
+    <string name="title_mycustomrecipe">My Custom Recipes</string>
+    <string name="title_browsecategory">Browse Categories</string>
+    <string name="title_favouriteitem">Favourite Item</string>
+    <string name="title_setting">Setting</string>
+    <string name="choose_category">\u0020\u0020\u0020Choose Category</string>
+    
+    <string name="search">Search</string>
+    <string name="empty_string">Empty View</string>
+    
+</resources>

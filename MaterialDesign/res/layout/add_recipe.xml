@@ -1,0 +1,101 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.mycustomadd.MainActivity" 
+    android:orientation="vertical">
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar" />   
+    <ScrollView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+	<TextView 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:fontFamily="Arial"
+	    android:textColor="#622e18"
+	    android:textSize="25dp"
+	    android:text="Title"/>
+	<EditText 
+	    android:layout_width="match_parent"
+	    android:layout_height="50dp"
+	    android:background="#eae3e0"
+	    android:fontFamily="Arial"
+	    android:textSize="18dp"
+	    android:textColorHint="#9f9f9f"
+	    android:id="@+id/title"
+	    android:singleLine="true"
+	    android:hint="Enter title"/>
+	
+	<TextView 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:fontFamily="Arial"
+	    android:gravity="center"
+	    android:textColor="#622e18"
+	    android:textSize="25dp"
+	    android:text="Choose a picture for your dish"/>
+	<ImageView 
+	    android:id="@+id/ivPictureChoose"
+	    android:layout_width="400dp"
+	    android:layout_height="400dp"
+	    android:src="@drawable/add_dish"
+	    android:layout_gravity="center"
+	    />
+	<TextView 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"	    
+	    android:fontFamily="Arial"
+	    android:textColor="#622e18"
+	    android:textSize="25dp"
+	    android:layout_marginTop="20dp"
+	    android:text="Ingredient" />
+	
+	<EditText 
+	    android:layout_width="match_parent"
+	    android:layout_height="120dp"
+	    android:background="#eae3e0"
+	    android:fontFamily="Arial"  
+	    android:textSize="18dp"
+	    android:gravity="top"
+	    android:id="@+id/ingredient"
+	    android:layout_marginTop="5dp"
+	    android:hint="List your ingredient (One ingredient per line)"
+	    />
+	<TextView 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:fontFamily="Arial"
+	    android:textColor="#622e18"
+	    android:textSize="25dp"
+	    android:layout_marginTop="14dp"
+	    android:text="Preparation"/>
+	<EditText 
+	    android:layout_width="match_parent"
+	    android:layout_height="120dp"
+	    android:background="#eae3e0"
+	     android:fontFamily="Arial"
+	    android:textSize="18dp"
+	    android:gravity="top"
+	    android:layout_marginTop="5dp"
+	    android:id="@+id/preparation"
+	    android:hint="How do you make it? (One step per line)"
+	    />
+	<Button 
+	    android:id="@+id/btnsave"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	     android:fontFamily="Arial"
+	     android:background="#622e18"
+	     android:textColor="#eae3e0"
+	     android:layout_marginTop="5dp"
+	    android:text="SAVE YOUR RECIPE"/>
+   
+	</LinearLayout>
+	</ScrollView>
+</LinearLayout>

@@ -1,0 +1,29 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="2.5dp"
+    android:paddingRight="2.5dp" tools:context=".MainActivity" android:background="#e6e6e6">
+	<TextView 
+	    android:layout_height="wrap_content"
+	    android:layout_width="match_parent"
+	    android:id="@+id/choose"
+	    android:textSize="25dp"
+	    android:textColor="#622e18"
+	    android:background="#ffffff"
+	    android:fontFamily="Arial"
+	    android:paddingTop="10dp"
+	    android:paddingBottom="10dp"
+	    android:text="@string/choose_category"/>
+	<View 
+	    android:layout_width="fill_parent"
+	    android:layout_height="2dp"
+	    android:background="#622e18"
+	    android:layout_below="@+id/choose"/>
+	
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="20dp"
+        android:layout_below="@+id/choose"/>
+
+</RelativeLayout>
